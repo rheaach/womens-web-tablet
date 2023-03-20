@@ -1,0 +1,442 @@
+body
+{
+    background-image: url("../images/background.jpeg");
+    padding: 20px;
+
+}
+nav{
+  font-family: Pacifico;
+  /* margin: auto; */
+  text-align: center;
+
+}
+ 
+nav li{
+  display: inline;
+  background-color: beige;
+  border: 1px solid burlywood;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+nav a{
+  display: inline-block;
+}
+main{
+    width: 95%;
+    margin: 0 auto;
+    
+}
+li {
+    align-items: center;
+    display: inline;
+    padding: 15px;
+    border: 1px;
+  }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+h2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration-color: blueviolet;
+    margin-top: 16px;
+}
+button
+{
+    padding: 10px;
+    background-color: blanchedalmond;
+    align-items: center;
+}
+
+img {
+    display: block;
+    width: 95%;
+    padding: 20px;
+    margin: auto;
+    align-content: 
+
+    
+}
+
+{
+    body{
+      font-family:16px;
+  
+    }
+    h1{
+      font-family:Cursive;
+      font-size:64px;
+    }
+  
+    h2{
+      font-size:32px;
+      margin-top: 16px;
+    }
+  
+    p{
+      font-size:24px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    div{
+      padding:25px;
+    }
+}
+footer{
+  margin-top: 40px;
+  text-align: center;
+}
+  
+@media screen and (max-width: 400px)
+{
+.flex-container{
+  display: flex;
+  flex-direction: column;
+}
+  nav{
+    display:block;
+    /* background-color: blanchedalmond; */
+    text-align: center;
+   
+  }
+main{
+    width: 98%;
+    margin: 5px;
+    
+}
+ul {
+  display: inline-grid;
+}
+li {
+  
+    align-items: center;
+    display: inline;
+    padding: 15px;
+    border: 1px;
+  }
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+h2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration-color: blueviolet;
+}
+button
+{
+    padding: 10px;
+    background-color: blanchedalmond;
+    align-items: center;
+}
+@keyframes example {
+  from {width: 10%;}
+  to {width: 90%;}
+}
+img {
+    display: block;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    animation-name: example;
+    animation-duration: 1s;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+.grid-item {
+  background-color: rgb(226, 223, 219);
+  padding: 10px;
+  text-align: center;
+  border-bottom: 5px solid white;
+}
+h2.grid-item{
+  
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+    body{
+      font-family:16px;
+  
+    }
+    h1{
+      font-family:Cursive;
+      font: size 18px;
+    }
+  
+    h2{
+      font-size:32px;
+      margin-top: 24px;
+      font-weight: bold;
+    }
+  
+    p{
+      font-size:24px;
+      margin-top: 10px;
+    }
+    .fa {
+      border: 1px dashed salmon;
+    }
+    div{
+      padding: 10px;
+
+    }
+
+}
+@media screen and (prefers-reduced-motion: reduce){
+
+ 
+  a.skip {
+    -webkit-transition: initial; 
+    transition: initial; 
+  }
+
+}
+div span{
+  margin-top: 16px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+@media 
+  (min-device-width: 600px) 
+  and (max-device-width: 1280px) {
+    nav{
+      display:block;
+      /* background-color: blanchedalmond; */
+      margin-top: 35px;
+      margin-bottom: 30px;
+      text-align: center;}
+    
+      main{
+      width: 95%;
+      margin: 25px;
+      
+  }
+  h1{
+    text-align: left;
+    margin-left: 32px;
+  }
+.ww {
+  font-size: xx-large;
+  color: #b8860b;
+  display: block;
+  font-family: Pacifico;
+  text-align: center;
+}
+img {
+ 
+ width: 100%;
+}
+figure{
+  padding: 10px;
+  margin-bottom: 32px;
+  background-color: rgb(207, 202, 176);
+
+}
+figcaption{
+  text-align: center;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+  font-weight:bold;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 18fr;
+  grid-row-gap: 32px;
+
+}
+.grid-item{
+  display: grid;
+  grid-template-columns: 96%;
+}
+.grid-col{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  grid-column-gap: 20px;
+  width: 95%;
+  margin: 10px;
+}
+h2{
+  font-size:medium;
+  color: dimgray;
+  margin: auto;
+  padding: 32px;
+  text-align: left;
+  font-style: italic;
+}
+dt{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-size: larger;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: saddlebrown;
+  padding: 5px;
+}
+dd{
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  
+}
+dd p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: dimgray;
+}
+object{
+  display: block;
+  margin: auto;
+}
+
+
+
+svg{
+  margin: auto;
+  display: block;
+}
+
+@-webkit-keyframes animate-svg-stroke-1 {
+  0% {
+    stroke-dashoffset: 437.0006103515625px;
+    stroke-dasharray: 437.0006103515625px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 437.0006103515625px;
+  }
+}
+
+@keyframes animate-svg-stroke-1 {
+  0% {
+    stroke-dashoffset: 437.0006103515625px;
+    stroke-dasharray: 437.0006103515625px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 437.0006103515625px;
+  }
+}
+
+.svg-elem-1 {
+  -webkit-animation: animate-svg-stroke-1 2s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0s both;
+          animation: animate-svg-stroke-1 2s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0s both;
+}
+
+@-webkit-keyframes animate-svg-stroke-2 {
+  0% {
+    stroke-dashoffset: 12.04574966430664px;
+    stroke-dasharray: 12.04574966430664px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 12.04574966430664px;
+  }
+}
+
+@keyframes animate-svg-stroke-2 {
+  0% {
+    stroke-dashoffset: 12.04574966430664px;
+    stroke-dasharray: 12.04574966430664px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 12.04574966430664px;
+  }
+}
+
+.svg-elem-2 {
+  -webkit-animation: animate-svg-stroke-2 2s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0.12s both;
+          animation: animate-svg-stroke-2 2s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0.12s both;
+}
+
+@-webkit-keyframes animate-svg-stroke-3 {
+  0% {
+    stroke-dashoffset: 40.604583740234375px;
+    stroke-dasharray: 40.604583740234375px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 40.604583740234375px;
+  }
+}
+
+@keyframes animate-svg-stroke-3 {
+  0% {
+    stroke-dashoffset: 40.604583740234375px;
+    stroke-dasharray: 40.604583740234375px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 40.604583740234375px;
+  }
+}
+
+.svg-elem-3 {
+  -webkit-animation: animate-svg-stroke-3 2s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0.24s both;
+          animation: animate-svg-stroke-3 2s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0.24s both;
+}
+
+@-webkit-keyframes animate-svg-stroke-4 {
+  0% {
+    stroke-dashoffset: 325.9208984375px;
+    stroke-dasharray: 325.9208984375px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 325.9208984375px;
+  }
+}
+
+@keyframes animate-svg-stroke-4 {
+  0% {
+    stroke-dashoffset: 325.9208984375px;
+    stroke-dasharray: 325.9208984375px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 325.9208984375px;
+  }
+}
+
+.svg-elem-4 {
+  -webkit-animation: animate-svg-stroke-4 2s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0.36s both;
+          animation: animate-svg-stroke-4 2s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0.36s both;
+}
+
+
+}
+@media screen and (prefers-reduced-motion: reduce){
+
+  a.skip {
+    -webkit-transition: initial; /* sets to default setting */
+    transition: initial; /* sets to default setting */
+  }
+}
